@@ -1,4 +1,4 @@
-# El Señor de los Anillos - POO en Java
+# El Señor de los Anillos - Java
 
 ## 1. Descripción
 Este proyecto aplica Programación Orientada a Objetos en Java con personajes de El Señor de los Anillos.
