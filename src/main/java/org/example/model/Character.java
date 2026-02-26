@@ -35,22 +35,6 @@ public class Character {
         return health;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setWeapon(String weapon) {
-        this.weapon = weapon;
-    }
-
-    public void setRegion(String region) {
-        this.region = region;
-    }
-
     public void setHealth(int health) {
         this.health = health;
     }
