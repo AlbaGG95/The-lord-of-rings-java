@@ -49,7 +49,7 @@ Name: Frodo | Age: 50 | Weapon: Sting | Region: Shire | Health: 85 | Stealth: 92
 ## 6. Entregables
 - Repositorio GitHub
 - Captura de consola (ejecución en IntelliJ)
-- Diagrama UML (Draw.io)
+- Diagrama UML 
 
 ## 7. Checklist de requisitos cumplidos
 - [x] 1 superclase
