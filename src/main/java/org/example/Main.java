@@ -2,11 +2,16 @@ package org.example;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.example.model.*;
+import org.example.model.Character;
+import org.example.model.Dwarf;
+import org.example.model.Elf;
+import org.example.model.Hobbit;
+import org.example.model.Human;
+import org.example.model.Orc;
 
 public class Main {
     public static void main(String[] args) {
-        List<org.example.model.Character> characters = new ArrayList<>();
+        List<Character> characters = new ArrayList<>();
 
         Elf elf1 = new Elf("Legolas", 2931, "Bow", "Mirkwood", 95, 98, true);
         Elf elf2 = new Elf("Tauriel", 600, "Daggers", "Woodland Realm", 88, 91, true);
@@ -44,7 +49,7 @@ public class Main {
         characters.add(orc2);
         characters.add(orc3);
 
-        for (org.example.model.Character c : characters) {
+        for (Character c : characters) {
             System.out.println(c.getDetails());
         }
     }
